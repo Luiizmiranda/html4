@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html,body{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+}
+
+body{
+    background:url(../imagens/fundo-madeira.jpg);
+    background-size: cover;/*pra ocupar o espaço da tela toa*/
+    background-attachment: fixed;/*pra não te rolamento*/
+}
+main{
+    position: relative;
+    height: 100vh;
+ 
+}
+
+
+section#telefone{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    /*  1° voce vai abrir a imagem pelo gimp
+    2° com a imagem aberta voce vai em IMAGEM 
+    3° Clicar em PROPRIEDADES DE IMAGEM 
+    3° atalho pro comando  ALT + ENTER
+    para ver a largura e altura da imagem vai */
+    height: 627px;
+    width: 311px;
+    background-color: blue;
+    background:url(../imagens/frame-iphone.png)no-repeat;
+}
