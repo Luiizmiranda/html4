@@ -20,7 +20,7 @@ header{
 }
 
 menu{
-    display: block;
+    display: none;
 }
 
 menu > ul{
@@ -35,6 +35,20 @@ menu > ul > li > a{
     background-color: rgb(87, 87,87);
     color: white;
     border-top: 2px solid rgba(0, 0, 0, 0.507);
+}
+
+i#burguer{
+    background-color: rgb(48, 48, 48);
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+i#burguer:hover{
+    background-color: white;
+    color: black;
 }
 
 menu > ul > li > a:hover{
